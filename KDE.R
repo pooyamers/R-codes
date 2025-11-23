@@ -1,6 +1,3 @@
-# Assignment 1) Pooya Mers, Erin Breur
-
-
 ## Load and prepare data
 # Read tritium level data from CSV file 
 data <- read.csv("C:/Users/4dmer/Desktop/Study material/Year 2/Data Science Methods/Assignments/tritium.csv")
@@ -75,3 +72,4 @@ lines(d_epan, col = 2, lwd = 2)  # Epanechnikov in red
 lines(d_gauss, col = 4, lwd = 2)  # Gaussian in blue
 legend(x = 4, y = 0.8, legend = c("Gaussian Density", "Epanechnikov"),
        col = c(4, 2), lty = 1, lwd = 2)
+
